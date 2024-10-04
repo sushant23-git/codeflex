@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marvel:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Superhero Abilities</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      padding: 20px;
+      background-image: url('https://i.pinimg.com/564x/6d/42/69/6d42695524be350af9a6b8f4191e6c1b.jpg');
+      object-fit:cover;
+    }
+    .hero-section {
+      background-color: #ffffff;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      padding: 20px;
+      max-height: 500px;
+      overflow-y: auto;
+    }
+    .ability-item {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+    .ability-item img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-right: 15px;
+    }
+    .ability-title {
+      font-weight: bold;
+      font-size: 1.25rem;
+    }
+    .ability-description {
+      font-size: 1rem;
+      color: #6c757d;
+    }
+    /* For smaller screens, stack the image and text */
+    @media (max-width: 768px) {
+      .ability-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .ability-item img {
+        margin-bottom: 10px;
+        margin-right: 0;
+      }
+    }
+    .col-md-8{
+        width: 1500px;
+    
+    }
+    .text-center{
+        font-size: 200px;
+        font-weight: 2000;
+        font-family: Marvel;        ;
+        color: red;
+        
+    }
+  </style>
+</head>
+<body>
+    <p  class=style="background-image: url('spiderman.jpg');"> </p>
+
+  <div class="container">
+
+    <h1 class="text-center">
+        <img class="Dc-logo" src="dc_logo.png">
+    </h1>
+
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="hero-section">
+          
+          <div class="ability-item">
+            <img src="https://i.pinimg.com/564x/3c/f6/d0/3cf6d0a0d2caeb6127d9ef1f01a30f8e.jpg" alt="Flight">
+            <div>
+              <h2 class="ability-title">Superman</h2>
+              <p class="ability-description">
+                Superman, or Clark Kent, possesses incredible superhuman abilities that make him one of the most powerful superheroes. He has super strength, can fly, and is nearly invulnerable to physical harm. His powers include heat vision, x-ray vision, super speed, and super hearing. Additionally, he can regenerate quickly from injuries and ages slowly due to his exposure to the solar energy of Earth's yellow sun. These extraordinary abilities enable him to protect humanity and embody hope and justice.
+             </p>
+            </div>
+          </div>
+
+          <div class="ability-item">
+            <img src="https://i.pinimg.com/236x/89/f5/ac/89f5acfeebbe801d5e05f1b6d5839d33.jpg" alt="Invisibility">
+            <div>
+              <h2 class="ability-title">Batman</h2>
+              <p class="ability-description">
+                Batman, or Bruce Wayne, is a iconic superhero created by Bob Kane and Bill Finger, first appearing in Detective Comics #27 in 1939. Motivated by the tragic murder of his parents, he dedicates his life to fighting crime in Gotham City. Unlike many superheroes, Batman has no superpowers; he relies on his peak physical condition, genius-level intellect, and advanced martial arts skills, along with an array of high-tech gadgets.
+              </p>
+            </div>
+          </div>
+
+          <div class="ability-item">
+            <img src="https://i.pinimg.com/564x/cf/78/6b/cf786befb16572cabf4e783b7a8ffd4b.jpg" alt="Telepathy">
+            <div>
+              <h2 class="ability-title">Joker</h2>
+              <p class="ability-description">
+                The Joker is Batman's arch-nemesis and one of comic book history's most iconic villains. Created by Bill Finger, Bob Kane, and Jerry Robinson, he is known for his clown-like appearance, maniacal laughter, and chaotic nature. Often depicted as a former criminal who fell into chemicals, his pale skin and green hair symbolize his madness. The Joker embodies anarchy and challenges Batman's moral code, making him a complex and formidable adversary. His sadistic humor and unpredictable behavior have made him a lasting symbol of chaos in popular culture.
+              </p>
+            </div>
+          </div>
+
+          <div class="ability-item">
+            <img src="https://i.pinimg.com/564x/7c/a3/83/7ca3835c67b91e5c3462f7d407cbf97e.jpg" alt="Flash">
+            <div>
+              <h2 class="ability-title">Flash</h2>
+              <p class="ability-description">
+                The Flash, also known as Barry Allen, is a superhero from DC Comics, created by Robert Kanigher and Carmine Infantino, debuting in Showcase #4 in 1956. He possesses super-speed, allowing him to move, think, and react at incredible velocities, making him one of the fastest characters in the DC Universe. Barry gains his powers after being struck by lightning during a chemical explosion, which imbues him with the ability to run fast enough to break the time barrier and travel through time. The Flash uses his speed to fight crime, often clashing with villains like Reverse-Flash and Zoom. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
